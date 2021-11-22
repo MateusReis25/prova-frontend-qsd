@@ -1,0 +1,39 @@
+body{
+    margin: 0%;
+}
+
+.container1{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 550px;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    color: rgb(2, 2, 2);
+  
+}
+
+.imagens img{
+    width: 19%;
+    padding: 20px 3px;
+}
+
+.login strong{
+    font-size: 25px;
+}
+
+.formulario input{
+    background-color: rgb(235, 229, 229);
+    width: 100%;
+}
+
+.formulario button{
+    margin: 10px;
+    width: 60%;
+    background-color: rgb(255, 81, 0);
+    border: none;
+    border-radius: 25px;
+}
+
