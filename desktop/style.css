@@ -2,6 +2,12 @@ body{
     margin: 0%;
 }
 
+a{
+    color: black;
+}
+
+/* LOGIN */
+
 .container1{
     background-color: #fff;
     display: flex;
@@ -17,15 +23,22 @@ body{
 
 .login{
     width: 100%;
+    
 }
 
 .imagens img{
-    width: 8%;
+    width: 6%;
     padding: 20px 3px;
 }
 
 .login strong{
     font-size: 25px;
+    
+    
+}
+
+.log{
+    padding-top: 15%;
 }
 
 .formulario input{
@@ -41,10 +54,30 @@ body{
     border: none;
     border-radius: 25px;
 }
+/*  */
+
 
 /*  CADASTRO */
 
-.container2{
-    background-color: aqua;
-    display: flex;
+.cadastro{
+    background-color: rgba(255, 0, 64, 0.822);
+    width: 50%;
+    height: 250%;
+    color: #fff;
+    padding: 16% 0%;
+
 }
+
+.cadastro button{
+    
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid rgb(255, 254, 254);
+    border-radius: 25px;
+}
+
+.cadastro li{
+    margin: 40px;
+    align-items: center;
+}
+/*  */
